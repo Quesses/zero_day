@@ -8,12 +8,12 @@
  * Return: Always 0
  */
 
-//** using recursion NOT WORKING
+//** using recursion WORKING NOW
 bool isPrime(int input)
 {
 	int div;
 
-	for (div = sqrt(input); div > 1; div--)
+	for (div = input -1; div > 1; div--)
 	{
 		if (input % div == 0)
 		{
