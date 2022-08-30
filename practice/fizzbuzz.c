@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - Entry point
@@ -10,6 +11,8 @@ int main (void)
 	int x;
 	double y, z;
 
+	system("clear");
+	system("pause");
 	for (x = 0; x <= 15; x++)
 	{
 		if (x % 3 == 0 && x % 5 == 0)
