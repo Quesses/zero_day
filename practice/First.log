@@ -1,0 +1,10 @@
+DEBUG:root:My first log
+INFO:root:My first log:- info
+ERROR:root:My first log:- error
+WARNING:root:My first log:-warning
+CRITICAL:root:My first critical log
+DEBUG 2022-10-16 15:08:46,393: My first log
+INFO 2022-10-16 15:08:46,393: My first log:- info
+ERROR 2022-10-16 15:08:46,393: My first log:- error
+WARNING 2022-10-16 15:08:46,393: My first log:-warning
+CRITICAL 2022-10-16 15:08:46,393: My first critical log
